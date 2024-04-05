@@ -12,5 +12,5 @@ func main() {
 	app.Get("/", func(c *fiber.Ctx) error {
 		return c.SendString("sup")
 	})
-	log.Fatal(app.Listen(fmt.Sprintf(":%s", "4000")))
+	log.Fatal(app.Listen(fmt.Sprintf(":%s", "3000")))
 }
